@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Conversor.Vistas.Convertir"
+             NavigationPage.HasNavigationBar="False"
+             Visual="Material">
+    
+    <Grid BackgroundColor="#FDE07F">
+        <StackLayout VerticalOptions="Center"
+                     Margin="20"
+                     Spacing="25">
+            
+            <Image Source="https://i.ibb.co/cJYdj39/medidas.png"/>
+            
+            <Frame HasShadow="false"
+                   CornerRadius="10">
+                
+                <Entry Keyboard="Numeric"
+                       Placeholder="Centimetros (CM)"
+                       FontSize="Medium"
+                       x:Name="txtCentimetros"/>
+                
+            </Frame>
+            
+            <Button Text="Calcular"
+                    FontSize="Default"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"
+                    TextTransform="None"
+                    BackgroundColor="#7C50E9"
+                    TextColor="White"
+                    x:Name="btnCalcular"
+                    Clicked="btnCalcular_Clicked"/>
+            
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Resultado:"
+                       FontSize="20"
+                       VerticalOptions="Center"
+                       FontAttributes="Bold"/>
+                <Label Text="0.00"
+                       FontSize="20"
+                       VerticalOptions="Center"
+                       FontAttributes="Bold"
+                       x:Name="lblResultado"/>
+                
+
+            </StackLayout>
+
+            <Button Text="Volver"
+                    FontSize="Default"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"
+                    BackgroundColor="#7C50E9"
+                    TextColor="White"
+                    TextTransform="None"
+                    HorizontalOptions="Center"
+                    x:Name="btnVolver"
+                    Clicked="btnVolver_Clicked"/>
+            
+        </StackLayout>        
+    </Grid>
+   
+</ContentPage>
