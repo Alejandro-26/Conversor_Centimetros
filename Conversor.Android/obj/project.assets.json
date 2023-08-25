@@ -3459,11 +3459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\57320\\source\\repos\\Conversor\\Conversor.Android\\Conversor.Android.csproj",
+      "projectUniqueName": "C:\\Users\\57320\\Source\\Repos\\Conversor_Centimetros\\Conversor.Android\\Conversor.Android.csproj",
       "projectName": "Conversor.Android",
-      "projectPath": "C:\\Users\\57320\\source\\repos\\Conversor\\Conversor.Android\\Conversor.Android.csproj",
+      "projectPath": "C:\\Users\\57320\\Source\\Repos\\Conversor_Centimetros\\Conversor.Android\\Conversor.Android.csproj",
       "packagesPath": "C:\\Users\\57320\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\57320\\source\\repos\\Conversor\\Conversor.Android\\obj\\",
+      "outputPath": "C:\\Users\\57320\\Source\\Repos\\Conversor_Centimetros\\Conversor.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3484,8 +3484,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\57320\\source\\repos\\Conversor\\Conversor\\Conversor.csproj": {
-              "projectPath": "C:\\Users\\57320\\source\\repos\\Conversor\\Conversor\\Conversor.csproj"
+            "C:\\Users\\57320\\Source\\Repos\\Conversor_Centimetros\\Conversor\\Conversor.csproj": {
+              "projectPath": "C:\\Users\\57320\\Source\\Repos\\Conversor_Centimetros\\Conversor\\Conversor.csproj"
             }
           }
         }
